@@ -48,7 +48,7 @@ export default function BuySareeForm({ saree, open, onClose }) {
       };
 
       const response = await axios.post(
-        "https://mahalaxmisite-backend.onrender.com/buyers",
+        `${import.meta.env.VITE_API_URL}/buyers`,
         orderData
       );
 

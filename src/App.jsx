@@ -9,7 +9,7 @@ import Home from "./Home";
 import Navbar from "./Navbar";
 import Footer from "./userComponents/CommanComponents/Footer";
 
-const API_URL = "https://mahalaxmisite-backend.onrender.com";
+const API_URL = `${import.meta.env.VITE_API_URL}`;
 
 function App() {
   useEffect(() => {

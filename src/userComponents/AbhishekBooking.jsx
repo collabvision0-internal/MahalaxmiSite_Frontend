@@ -36,7 +36,7 @@ import {
   ZoomOut,
 } from "lucide-react";
 
-const API_URL = "https://mahalaxmisite-backend.onrender.com";
+const API_URL = `${import.meta.env.VITE_API_URL}`;
 const REQUEST_TIMEOUT = 180000; // Allow up to 3 minutes for a sleeping free-tier server to wake up.
 
 const TIME_SLOTS = [
@@ -486,10 +486,11 @@ export default function AbhishekBooking() {
                   </Label>
                   <div className="bg-white p-3 sm:p-4 border border-yellow-200 rounded-xl flex flex-col items-center">
                     <div className="bg-gradient-to-r from-yellow-500 to-yellow-600 text-white text-lg font-semibold px-4 py-2 rounded-full mb-4 text-center">
-                      Abhishek Fee: ₹1001
+                      Abhishek Fee: ₹751
                     </div>
+                    {/* 919130340304@federal */}
                     <div className="w-48 h-48 p-2 bg-white rounded-lg shadow-sm border border-yellow-100">
-                      <img src="/qr.png" alt="QR code for Abhishek payment" width={180} height={180} className="w-full h-full object-contain" />
+                      <img src="/qr.jpeg" alt="QR code for Abhishek payment" width={180} height={180} className="w-full h-full object-contain" />
                     </div>
                     <p className="mt-4 text-sm text-center text-gray-600">
                       After paying, enter the transaction ID shown in your payment app.
