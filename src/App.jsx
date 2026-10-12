@@ -15,7 +15,7 @@ function App() {
   useEffect(() => {
     const wakeServer = async () => {
       try {
-        const response = await axios.get(`${API_URL}/health`, {
+        const response = await axios.get(`${API_URL}health`, {
           timeout: 120000,
         });
 
