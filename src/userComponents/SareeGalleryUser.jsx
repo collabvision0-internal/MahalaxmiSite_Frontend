@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import axios from "axios";
 import {
@@ -29,9 +28,7 @@ export default function SareeGalleryUser() {
   const fetchSarees = async () => {
     try {
       setLoading(true);
-      const response = await axios.get(
-        `${import.meta.env.VITE_API_URL}/sarees`
-      );
+      const response = await axios.get(`${import.meta.env.VITE_API_URL}sarees`);
       setSarees(response.data);
       setError("");
     } catch (error) {
@@ -162,7 +159,7 @@ export default function SareeGalleryUser() {
                   </Button>
                 </CardFooter>
               </Card>
-            )
+            ),
           )}
         </div>
       )}

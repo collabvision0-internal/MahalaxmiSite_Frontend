@@ -48,15 +48,15 @@ export default function BuySareeForm({ saree, open, onClose }) {
       };
 
       const response = await axios.post(
-        `${import.meta.env.VITE_API_URL}/buyers`,
-        orderData
+        `${import.meta.env.VITE_API_URL}buyers`,
+        orderData,
       );
 
       const updatedSaree = { ...saree, sell: true }; // Keep existing saree details and update `sell`
 
       await axios.put(
         `https://mahalaxmisite-backend.onrender.com/sarees/${saree._id}`,
-        updatedSaree
+        updatedSaree,
       );
 
       console.log("Order placed successfully:", response.data);
@@ -77,7 +77,7 @@ export default function BuySareeForm({ saree, open, onClose }) {
     } catch (err) {
       console.error("Error placing order:", err);
       setError(
-        err.response?.data?.error || "Failed to place order. Please try again."
+        err.response?.data?.error || "Failed to place order. Please try again.",
       );
     } finally {
       setLoading(false);
