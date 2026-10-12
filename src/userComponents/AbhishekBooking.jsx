@@ -295,7 +295,7 @@ export default function AbhishekBooking() {
       }
 
       const response = await axios.post(
-        `${API_URL}/bookings`,
+        `${API_URL}bookings`,
         {
           name: name.trim(),
           phone: phone.trim(),
