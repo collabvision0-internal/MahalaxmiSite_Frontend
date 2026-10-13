@@ -490,7 +490,7 @@ export default function AbhishekBooking() {
                     </div>
                     {/* 919130340304@federal */}
                     <div className="w-48 h-48 p-2 bg-white rounded-lg shadow-sm border border-yellow-100">
-                      <img src="/qr.jpeg" alt="QR code for Abhishek payment" width={180} height={180} className="w-full h-full object-contain" />
+                      <img src="/qr.webp" alt="QR code for Abhishek payment" width={180} height={180} className="w-full h-full object-contain" />
                     </div>
                     <p className="mt-4 text-sm text-center text-gray-600">
                       After paying, enter the transaction ID shown in your payment app.
@@ -660,7 +660,7 @@ export default function AbhishekBooking() {
               style={{ touchAction: "none" }}
             >
               <img
-                src="/transaction.png"
+                src="/transaction.webp"
                 alt="Payment screenshot showing where to find the transaction ID or UTR reference"
                 draggable={false}
                 className="block select-none object-contain"

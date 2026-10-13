@@ -7,7 +7,7 @@ const Footer = () => {
         <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
           <a class="flex title-font font-medium items-center md:justify-start justify-center text-white">
             <img
-              src="./logo.png"
+              src="./logo.webp"
               className="w-12 h-12 rounded-full object-cover border-2 border-amber-500"
               alt="Temple Logo"
             />

@@ -23,8 +23,8 @@ import { useState, useEffect } from "react";
 // import { Sun, Calendar, ChevronLeft, ChevronRight } from "lucide-react";
 // import { Link } from "react-router-dom";
 const templeImages = [
-  "./Bgimg1.png", // Replace with actual temple images
-  "./bgimg2.png",
+  "./Bgimg1.webp", // Replace with actual temple images
+  "./bgimg2.webp",
 ];
 
 export default function Home() {
@@ -259,7 +259,7 @@ export default function Home() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-amber-400 to-amber-600 rounded-2xl blur opacity-30 animate-pulse-slow"></div>
                 <div className="relative h-[500px] overflow-hidden rounded-xl shadow-2xl">
                   <img
-                    src="./galP2.png"
+                    src="./galP2.webp"
                     alt="Temple Interior"
                     className="object-cover w-full h-full"
                   />
@@ -788,7 +788,7 @@ export default function Home() {
               <div className="grid gap-4">
                 <div className="group relative overflow-hidden rounded-xl shadow-md h-40 md:h-80 transition-transform hover:scale-[1.02]">
                   <img
-                    src="./galP1.png"
+                    src="./galP1.webp"
                     alt="Temple Exterior"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -800,7 +800,7 @@ export default function Home() {
                 </div>
                 <div className="group relative overflow-hidden rounded-xl shadow-md h-40 md:h-40 transition-transform hover:scale-[1.02]">
                   <img
-                    src="./gall1.png"
+                    src="./gall1.webp"
                     alt="Diwali Celebration"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -815,7 +815,7 @@ export default function Home() {
               <div className="grid gap-4">
                 <div className="group relative overflow-hidden rounded-xl shadow-md h-40 md:h-40 transition-transform hover:scale-[1.02]">
                   <img
-                    src="./gall2.png"
+                    src="./gall2.webp"
                     alt="Ganesh Idol"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -825,7 +825,7 @@ export default function Home() {
                 </div>
                 <div className="group relative overflow-hidden rounded-xl shadow-md h-40 md:h-80 transition-transform hover:scale-[1.02]">
                   <img
-                    src="./galP2.png"
+                    src="./galP2.webp"
                     alt="Holi Festival"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -838,7 +838,7 @@ export default function Home() {
               <div className="grid gap-4">
                 <div className="group relative overflow-hidden rounded-xl shadow-md h-40 md:h-80 transition-transform hover:scale-[1.02]">
                   <img
-                    src="./galP3.png"
+                    src="./galP3.webp"
                     alt="Aarti Ceremony"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -848,7 +848,7 @@ export default function Home() {
                 </div>
                 <div className="group relative overflow-hidden rounded-xl shadow-md h-40 md:h-40 transition-transform hover:scale-[1.02]">
                   <img
-                    src="./gall3.png"
+                    src="./gall3.webp"
                     alt="Cultural Dance"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -861,7 +861,7 @@ export default function Home() {
               <div className="grid gap-4">
                 <div className="group relative overflow-hidden rounded-xl shadow-md h-40 md:h-40 transition-transform hover:scale-[1.02]">
                   <img
-                    src="./gall4.png"
+                    src="./gall4.webp"
                     alt="Temple Interior"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
@@ -873,7 +873,7 @@ export default function Home() {
                 </div>
                 <div className="group relative overflow-hidden rounded-xl shadow-md h-40 md:h-80 transition-transform hover:scale-[1.02]">
                   <img
-                    src="./galP4.png"
+                    src="./galP4.webp"
                     alt="Navratri Celebration"
                     className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
                   />
